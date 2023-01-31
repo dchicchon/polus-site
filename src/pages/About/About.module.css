@@ -13,7 +13,7 @@
 .container {
   margin: 2rem auto;
   /* padding-top: 2rem; */
-  width: 95%;
+  width: 90%;
   /* height: 100%; */
   display: flex;
   flex-direction: column;
@@ -26,11 +26,20 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+.container {
+  margin: 2rem auto 0;
+  width: 100%;
+}
   .subheading {
     font-size: 1rem;
     padding: 0 1rem;
   }
   .card_width {
     width: 75%;
+  }
+  .screenshot{ 
+    width: 100%;
+    padding-top: 2rem;
   }
 }

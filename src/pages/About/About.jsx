@@ -12,11 +12,10 @@ function About() {
     <>
       <NavBar />
       <div className={styles.container}>
-        <h2 style={{ fontSize: '3em', marginBottom: '5rem' }} className={classList(appStyles.h2)}>About</h2>
+        <h1 className={classList(appStyles.h1)}>About</h1>
         <p className={styles.subheading}>
           Polus is a personal planner designed to help you keep track of your
-          time throughout the day, week, and month across multiple devices. With
-          each new tab you can see your plans and not have to worry about using a physical planner
+          time throughout the day, week, and month across multiple devices
         </p>
         <img className={styles.screenshot} src={screenshot} alt="Polus screenshot" />
 

@@ -11,7 +11,10 @@
   },
   "reactProject": {
     "ready": true,
-    "entry": "./src/App.jsx"
+    "title": "Polus",
+    "description": "A planner application",
+    "entry": "./src/App.jsx",
+    "icon": "./src/assets/images/polus_icon_64x64.png"
   },
   "dependencies": {
     "react": "^18.2.0",
