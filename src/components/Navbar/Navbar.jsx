@@ -12,7 +12,6 @@ function Navbar() {
       <Link className={styles.nav_link} to={`../${routes.ABOUT}`}>About</Link>
       <Link className={styles.nav_link} to={`../${routes.PRIVACY}`}>Privacy</Link>
       <Link className={styles.nav_link} to={`../${routes.TERMS}`}>Terms</Link>
-      {/* make a navbar */}
     </header>
   );
 }
